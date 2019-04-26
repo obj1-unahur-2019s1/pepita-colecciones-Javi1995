@@ -1,10 +1,4 @@
-/*
- * Traerse las definiciones de la etapa 4
- */
-// import roque.roque
-// import pepita.pepita
-// import masAves.pepon
-// import masAve.pipa
+
 
 object helicopteroFeo {
   var kmDesdeUltimoService = 0
@@ -13,8 +7,9 @@ object helicopteroFeo {
   method volar(km) { kmDesdeUltimoService += km }
   method requiereService() { return kmDesdeUltimoService >= frecuenciaServiceKm } 
   method registarService() { kmDesdeUltimoService = 0 }
+  method comer(comida, gramos){}
+  method haceLoQueQuieras() {}
 }
-
 
 object pepucha { 
   var cuantoComioDesdeUltimoVuelo = 0

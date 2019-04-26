@@ -1,6 +1,6 @@
 
 object pepon {
-	var energia = 0
+	var property energia = 0
 	
 	method comer(cosa, cuanto) { 
 		energia += (cosa.energiaPorGramo() / 2) * cuanto
@@ -12,7 +12,7 @@ object pepon {
 		self.volar(1)
 	}
 	method puedeVolar(unosKms) {
-		return self.energía es >= 1 + `unosKms` * 0.5
+		return energia >= 1 + unosKms * 0.5
 }
 
 object pipa {

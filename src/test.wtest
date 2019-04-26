@@ -1,0 +1,10 @@
+import pepita.*
+import comidas.*
+
+test "pepita puede volar" {
+
+	pepita.comer(alpiste, 10)
+	assert.equals (true, pepita.puedeVolar(29))
+	assert.equals (false, pepita.puedeVolar(41))
+	
+}

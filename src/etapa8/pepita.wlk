@@ -26,6 +26,6 @@ object pepita {
 		} 
 	}
 	method puedeVolar(unosKms) {
-		return self.energia >= 10 + unosKms
+		return energia >= 10 + unosKms
 	}
 }
